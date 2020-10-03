@@ -1,5 +1,6 @@
 # JSP
 - JSP: Java Server Page
+  - Uses the Java language
 
 # JSP projects
 
