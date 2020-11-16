@@ -9,5 +9,6 @@
 
 2. Creating a page with table and linking it to another page 
 
-# JSP project ideas 
+# JSP project ideas/plan
 
+Allowing people to have their own login page + 
