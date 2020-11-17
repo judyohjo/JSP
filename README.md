@@ -2,6 +2,7 @@
 - JSP: Java Server Page
   - Uses the Java language
   - For websites; so also uses some knowledge of HTML/CSS
+  - Usually used in the frontend
 
 # JSP projects
 
