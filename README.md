@@ -12,5 +12,6 @@
 
 # JSP project ideas/plan
 
+- Homepage
 - Allowing people to have their own login page 
 - Content boards
