@@ -12,5 +12,5 @@
 
 # JSP project ideas/plan
 
-Allowing people to have their own login page 
-  - so Online Diary?
+- Allowing people to have their own login page 
+- Content boards
