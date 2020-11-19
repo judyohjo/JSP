@@ -12,7 +12,7 @@
 
 # JSP project ideas/plan
 
-- Homepage
+- Homepage 
 - Allowing people to have their own login page 
 - Content boards
 - A page to write personal diaries
