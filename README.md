@@ -15,5 +15,5 @@
 1. Online diary
     - Homepage 
     - Login page + store login information on database
-    - Content boards
+    - Content boards (list of diaries with dates)
     - A page to write personal diaries
