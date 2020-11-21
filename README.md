@@ -14,6 +14,6 @@
 
 1. Online diary
     - Homepage 
-    - Allows people to have their own login page 
+    - Login page + store login information on database
     - Content boards
     - A page to write personal diaries
