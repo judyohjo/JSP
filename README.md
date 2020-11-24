@@ -17,4 +17,4 @@
     - Login page + store login information on database
     - Content boards (list of diaries with dates and with 'New', 'Delete' buttons)
     - A page to write personal diaries
-    - (a page to store each individual ID's information)
+    - (a page to store each individual ID's information) - not shown
