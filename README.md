@@ -13,7 +13,7 @@
 # JSP project ideas/plan
 
 1. Online diary
-    - Homepage with descriptions of the site
+    - Homepage with descriptions of the site + images + sign in button
     - Login page + store login information on database
     - Content boards (list of diaries with dates and with 'New', 'Delete' buttons)
     - A page to write personal diaries
