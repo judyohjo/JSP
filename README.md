@@ -18,3 +18,4 @@
     - Content boards (list of diaries with dates and with 'New', 'Delete' buttons)
     - A page to write personal diaries (if possible, can add photos)
     - (a page to store each individual ID's information) - not shown
+    - maybe a calendar?
