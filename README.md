@@ -8,7 +8,7 @@
 
 1. Creating a login page
 
-2. Creating a page with table and linking it to another page 
+2. Creating a page with table and linking it to another page (database)
 
 # JSP project ideas/plan
 
