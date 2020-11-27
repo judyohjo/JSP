@@ -16,6 +16,6 @@
     - Homepage with descriptions of the site + images + sign in button which directs to the register page
     - Login page/register page + store login information on database
     - Content boards (list of diaries with dates and with 'New', 'Delete' buttons)
-    - A page to write personal diaries (if possible, can add photos)
+    - A page to write personal diaries (if possible, allow adding photos)
     - (a page to store each individual ID's information) - not shown
     - maybe a calendar?
