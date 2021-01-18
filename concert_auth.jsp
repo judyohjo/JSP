@@ -19,12 +19,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>회원 인증페이지</h2>
-	<h1>인증문자: <del><%= uuids[1] %></del></h1>
+	<h2>Member Verification page</h2>
+	<h1>Authentication code: <del><%= uuids[1] %></del></h1>
 	<form action="concert_auth_check.jsp">
-		<small>위의 인증문자를 입력해주세요!</small>
+		<small>Please insert the authentication code.</small>
 		<input type="text" name="code" size="5">
-		<input type="submit" value="확인">
+		<input type="submit" value="Submit">
 	</form>
 </body>
 </html>
