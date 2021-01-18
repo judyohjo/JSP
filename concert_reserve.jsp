@@ -20,15 +20,15 @@
 <body>
 	
 	<div align="center">
-		<h2>콘서트 좌석 예매</h2>
-		<h4>예매할 좌석을 체크한 후 예약 버튼을 눌러주세요.</h4>
+		<h2>Reservation for Concert seat</h2>
+		<h4>Press the 'Reserve' button when you decide on the seat you want to reserve.</h4>
 	</div>
 	<hr/>
 	
 	<form action="concert_reserve_check.jsp">
 	
 	<p align="center">
-		<strong>좌석 배치도</strong>
+		<strong>Seatings</strong>
 		<br/>&nbsp;&nbsp;&nbsp;&nbsp;
 		<% for(char c='A'; c<='Z'; c++) { %>
 			<small><%=c %></small>&nbsp;&nbsp;
@@ -60,8 +60,8 @@
 			<br/>
 		<% } %><br/><br/>
 		
-		<input type="submit" value="예약">&nbsp;
-		<input type="reset" value="재설정">
+		<input type="submit" value="Reserve">&nbsp;
+		<input type="reset" value="Reset">
 	</p>
 	
 	</form>
