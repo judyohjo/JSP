@@ -3,7 +3,7 @@
 <%@ page import="java.util.*" %>
 
 <%
-	//예매가 확정된 좌석정보를 저장할 리스트.
+	//List to save reserved seat information.
 	List<String> list = new ArrayList<>();
 
 	if(application.getAttribute("complete_list") != null) {
@@ -29,7 +29,6 @@
 	}
 	
 	if(count == seat.length) {
-		//addAll()메서드는 리스트내부에 리스트 객체들을 전부 추가하는 메서드입니다.
 		list.addAll(temp);
 	}
 	
@@ -45,22 +44,22 @@
 <div align="center">
 		<h2>콘서트 예매 처리 결과</h2>
 		<p>
-			선택한 좌석<br>
+			Your seat <br>
 			<%
 				for(String s : seat) {
 					out.println("<b>[" + s + "]</b>");
 				}
 			%>
-			<br>가 예매 신청되었습니다.
+			<br>has been reserved.
 		</p>
 		<p>
-			예매 신청 결과: <%= (count == seat.length) ? "성공" : "실패" %>
+			Reservation result: <%= (count == seat.length) ? "Success" : "Fail" %>
 			<br>
 			<% if(count != seat.length) { %>
-				예매하고자 하는 좌석이 이미 선점되었습니다.
+				The seat you want to reserve has been booked already.
 			<% } %>
 			<br>
-			<a href="concert_reserve.jsp">추가 예매하기</a>
+			<a href="concert_reserve.jsp">Make another reservation</a>
 		</p>
 		
 	</div>
