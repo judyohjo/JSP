@@ -10,14 +10,13 @@
 		list = (List<String>)application.getAttribute("complete_list");
 	}
 
-	//사용자가 예매를 희망하는 좌석정보가 들어있는 배열.
+	//List with seating information the user wishes to reserve.
 	String[] seat = request.getParameterValues("seat");
 	
-	//예약 선점여부를 확인할 로직
-	//예약 확정 전에 임시로 좌석정보를 저장할 리스트.
+	//A List to temporarily save the seating information before reservation is complete.
 	List<String> temp = new ArrayList<>();
 	
-	//몇자리를 예약할 수 있는지의 여부를 체크할 변수.
+	//Checking how many seats people can reserve. 
 	int count = 0;
 	for(String s : seat) {
 		if(list.contains(s)) {
@@ -42,7 +41,7 @@
 </head>
 <body>
 <div align="center">
-		<h2>콘서트 예매 처리 결과</h2>
+		<h2>Concert Ticket Reservation Result</h2>
 		<p>
 			Your seat <br>
 			<%
