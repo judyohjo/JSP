@@ -5,4 +5,4 @@ There are four jsp files:
 - concert_auth : Sends to member verification page and sends authentication code
 - concert_auth_check : checking authentication
 - concert_reserve : Reserving seat for the concert
-- concert_reserve_check : 
+- concert_reserve_check : Saves information of those who reserved the ticket on a list
